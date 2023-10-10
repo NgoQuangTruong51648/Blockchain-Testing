@@ -1,0 +1,198 @@
+.itemdetail {
+    margin: 50px 0;
+    display: flex;
+    gap: 20px;
+    transition: all .3s ease;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    max-height: 30rem;
+    object-fit: contain;
+}
+
+.right {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.listInfoCount {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.itemInfoCount {
+    margin-right: 10px;
+    font-weight: 400;
+    padding: 5px 15px;
+    font-size: 14px;
+    text-align: center;
+    min-width: 80px;
+    background: rgba(131, 100, 226, .1);
+    border-radius: 3px;
+}
+
+.iconInfo, .subInfo{
+    margin-right: 5px;
+    color: rgba(0,0,0,.5);
+}
+
+.textDesc{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #727272;
+}
+
+.boxInfos{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.officer{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.boxInfoDetail{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.blockTabs{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnTabs{
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    min-width: 100px;
+    padding: 10px 20px;
+    background: #f6f6f6;
+    text-decoration: none;
+    color: #8364e2;
+}
+.btnDisabled{
+    cursor: not-allowed;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    min-width: 100px;
+    padding: 10px 20px;
+    background: #f6f6f6;
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.activeBtn{
+    color: #f6f6f6;
+    background-color: #8364e2 ;
+}
+
+.listAtrri{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 30px;
+}
+
+.itemAtrri{
+    width: 29%;
+    padding: 10px 20px;
+    background: rgba(131, 100, 226, .1);
+}
+
+.nameAtrri{
+    color: #8364e2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.specAtrri{
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: #0d0c22;
+}
+
+.rateAtrri{
+    font-size: 13px;
+    color: #727272;
+}
+
+.bottomRight{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn{
+    width: max-content;
+    text-align: center;
+    color: #fff!important;
+    background: #8364e2;
+    border-radius: 6px;
+    letter-spacing: normal;
+    outline: 0;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 8px 40px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px 0 rgb(131 100 226 / 0%);
+    transition: all .3s ease;
+}
+
+.bidsItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.subBid{
+    display: block;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+.content{
+    display: none;
+}
+
+.activeContent{
+    display: block;
+}

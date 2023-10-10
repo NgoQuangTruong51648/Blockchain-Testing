@@ -1,0 +1,70 @@
+.hotcollections{
+    margin: 50px 0;
+}
+
+.hotItem{
+    width: 250px;
+    height: 200px;
+    background: #fff;
+    padding-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10%;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+
+}
+
+
+.topHotItem{
+    width: 100%;
+    height: 60%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.midHotItem{
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+}
+
+.avatar{
+    position: relative;
+}
+
+.stick{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    color: #8364e2;
+    right: 8px;
+    bottom: 12px;
+}
+
+.avatarImg{
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.bottomHotItem{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.dayne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

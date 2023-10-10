@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 84rem;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  min-width: 100px;
+  padding: 10px 20px;
+  background: #8364e2;
+  text-decoration: none;
+  color: #f6f6f6;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  color: #0d0c22;
+}
+
+h5{
+  font-weight: 700;
+  color: #0d0c22;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.line {
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #8364e2;
+  border-left: none;
+  border-right: none;
+  margin: 18px auto 30px;
+}
+
+.name {
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #1a1b1e;
+}
+
+.subName {
+  font-size: 14px;
+  color: rgb(160, 160, 160);
+}
+
+
+/* Avatar */
+.avatarBox {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.stick {
+  text-align: center;
+  font-size: 10px;
+  position: absolute;
+  width: 16px;
+  height: 12px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #8364e2;
+  right: 0px;
+  bottom: 5px;
+}

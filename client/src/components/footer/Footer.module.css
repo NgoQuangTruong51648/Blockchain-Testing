@@ -1,0 +1,79 @@
+.topFooter {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.listWidget{
+    list-style: none;
+}
+
+.itemWidget {
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 14px;
+    color: rgb(83, 83, 83);
+}
+
+.inputFooter {
+    outline: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.arrowInput {
+    cursor: pointer;
+    background-color: #8364e2;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.bottomFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.listIcon{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.itemIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    background-color: #403f83;
+    padding: 12px 10px 8px;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.iconMedia{
+    color: white;
+    text-align: center;
+}
+
+.itemIcon:hover{
+    background-color: transparent;
+}
+
+.itemIcon:hover .iconMedia{
+    color: #8364e2;
+}

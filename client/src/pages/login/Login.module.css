@@ -1,0 +1,68 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.left,.right{
+    flex: 1;
+}
+
+.loginBox{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0d0c22;
+}
+
+.subTitle{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form{
+    gap: 20px;
+    background-color: #f0f2f5;
+    width: 60%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.titleForm{
+    font-size: 22px;
+    font-weight: 700;
+    color: #0d0c22;
+}
+
+.loginRegister{
+    color: #727272;
+}
+
+.loginRegister span{
+    color: #8364e2;
+    font-weight: 500;
+}
+
+.input{
+    padding: 12px;
+    color: #333;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+
+.loginWith span{
+    margin: 20px;
+    color: #8364e2;
+    font-weight: 500;
+}

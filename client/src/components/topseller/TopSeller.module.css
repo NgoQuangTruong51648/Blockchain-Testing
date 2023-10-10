@@ -1,0 +1,19 @@
+.authorList{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.authorItem{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.authorItemInfo{
+    margin-left: 20px;
+}
+

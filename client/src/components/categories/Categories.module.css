@@ -1,0 +1,140 @@
+.categories{
+    display: flex;
+    padding: 50px 0;
+}
+
+.left{
+    width: 20%;
+}
+
+.filter{
+    margin: 30px 0;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.itemFilter{
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.checkBox{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.boxItem{
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    margin: 10px 10px 25px;
+    background: #fff;
+    transition: .7s;
+}
+
+.clockdown{
+    position: absolute;
+    font-size: .8rem;
+    right: 20px;
+    background: #fff;
+    padding: 6px 10px;
+    border-radius: 30px;
+    border: 2px solid #8364e2;
+    z-index: 1;
+    color: #0d0c22;
+}
+
+.img{
+    height: 250px;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.imgNFT{
+    width: 100%;
+    height: auto!important;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.bottomBoxItem{
+    padding-top: 20px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.priceBox{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    color: #727272;
+}
+
+.quantity{
+    margin-left: 10px;
+    color: #111;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.place{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    color: #8364e2;
+}
+
+.heart{
+    color: #727272;
+    margin-right: 5px;
+}
+
+.heart:hover{
+    color: rgb(255, 89, 89);
+}
+
+span{
+    color: #727272;
+}
